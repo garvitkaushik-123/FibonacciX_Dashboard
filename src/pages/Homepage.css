@@ -1,0 +1,24 @@
+.home-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 145%;
+}
+
+.card {
+  padding: 20px;
+  border: 2px solid #000;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-color: #555;
+}
