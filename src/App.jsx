@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'; // styles ke liye ek CSS file banani padegi
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Homepage';
 import OrganizationPage from './pages/OrganizationPage';
 
 function NavBar() {
